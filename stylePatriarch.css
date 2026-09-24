@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Freeride';
+    src: url('Freeride.otf') format('opentype'); }
+
+    body {
+        background-image: url("media/bg.jpg");
+        background-size: cover; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        font-family: 'Freeride', cursive, sans-serif !important;
+        padding: 10px;
+        font-size: 20px;
+        color: #0b0b32; }
+
+        h1 {
+            text-align: center; }
+
+        h2 {
+            text-align: center; }
+
+        h3 {
+            text-align: center; }
+
+        div {
+            margin-top: 10px; }
+
+        button {
+            text-align: center;;
+            font-weight: bold;
+            background-color: rgb(212, 227, 240);
+            border-radius: 15px;
+            font-family: 'Freeride', cursive, sans-serif;
+            color: #0b0b32; 
+            padding: 15px 30px; 
+            font-size: 18px; 
+            min-width: 200px; 
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid #0b0b32; }
+
+        .content-with-photo {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start;
+            gap: 30px; 
+            margin-bottom: 30px; }
+
+        .photo-side {
+            width: 300px; 
+            flex-shrink: 0; }
+
+        .text-content {
+            width: 100%;
+            text-align: center; }
+
+        .single-photo img {
+            width: 100%; 
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #0b0b32; }
+
+        #reasonsToLate {
+            text-align: center;
+            padding-left: 0;
+            margin: 0 auto;
+            list-style-position: inside;
+            display: inline-block; }
+
+        #sortBtn {
+            display: block;
+            margin: 20px auto 0 auto; }
+
+        #addTaskBtn {
+            white-space: nowrap;
+            align-self: flex-start; 
+            margin-top: 0;
+            cursor: pointer;
+            display: block; }
+
+        #taskInput {
+            width: 80%; 
+            max-width: 350px; 
+            height: 90px; 
+            min-height: 50px;
+            padding: 15px; 
+            font-size: 18px; 
+            font-family: 'Freeride', cursive, sans-serif;
+            border: 2px solid #0b0b32;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            resize: none; }
+
+        #taskList {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 600px; }
+
+        #taskList li {
+            background-color: rgba(212, 227, 240, 0.3);
+            border: 1px solid #0b0b32;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+
+        #taskList li button {
+            padding: 4px 10px;
+            font-size: 12px;
+            border: 1px solid #0b0b32;
+            border-radius: 4px;
+            background-color: #0b0b32;
+            color: #0b0b32;
+            cursor: pointer; }
+
+        .input-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px; 
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px; }
+
+    
